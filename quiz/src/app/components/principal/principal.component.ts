@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Dias,ListaDias} from '../../interfaces/dias'
+import {Dias,ListaDias} from '../../interfaces/dias';
 
 @Component({
   selector: 'app-principal',
