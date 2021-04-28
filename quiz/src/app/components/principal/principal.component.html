@@ -1,0 +1,20 @@
+<body>
+    <ul>
+        <li *ngFor="let item of Lista">
+            <a [routerLink]="['/cambiar-clima']" routerLinkActive="router-link-active" >
+                <div class="dayContainer"> 
+                <p>
+                    {{item.nombre}}
+                </p>    
+                <img id="imagenClima" src="/assets/{{item.imagen}}">
+                <p>
+                    {{item.gradosC}}
+                </p>
+                <p>
+                    {{item.estado}}
+                </p>                
+                </div>
+            </a>
+        </li>
+    </ul>
+</body>
